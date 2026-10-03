@@ -1,4 +1,4 @@
-# Portafolio — Alexis Artaza · Solo Codin
+# Portafolio — Alexis Artaza · Solo Coding
 
 Sitio hecho con **Next.js** (App Router) y **React**, listo para publicar en Vercel.
 Íconos: [Bootstrap Icons](https://icons.getbootstrap.com/) (paquete de npm, sin CDN).

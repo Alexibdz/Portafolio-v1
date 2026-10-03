@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer">
         <p>
-          © <CurrentYear /> Alexis Artaza · Solo Codin
+          © <CurrentYear /> Alexis Artaza · Solo Coding
         </p>
         <p>Victoria, Entre Ríos, Argentina</p>
       </div>

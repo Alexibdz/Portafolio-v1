@@ -33,7 +33,7 @@ export default function About() {
               entregar mejor.
             </p>
             <p>
-              Con <strong>Solo Codin</strong> trabajo de forma freelance con negocios que necesitan una web o un sistema
+              Con <strong>Solo Coding</strong> trabajo de forma freelance con negocios que necesitan una web o un sistema
               hecho a su medida.
             </p>
           </div>

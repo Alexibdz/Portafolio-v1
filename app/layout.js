@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains-mono", display: "swap" });
 
 export const metadata = {
-  title: "Alexis Artaza — Desarrollador Web | Solo Codin",
+  title: "Alexis Artaza — Desarrollador Web | Solo Coding",
   description:
     "Desarrollador web freelance en Victoria, Entre Ríos. Páginas web, tiendas online y sistemas de gestión a medida para negocios.",
   authors: [{ name: "Alexis Artaza" }],
@@ -19,11 +19,11 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "es_AR",
-    siteName: "Solo Codin",
+    siteName: "Solo Coding",
     title: "Alexis Artaza — Desarrollador Web",
     description: "Páginas web, tiendas online y sistemas de gestión a medida para tu negocio.",
     url: "/",
-    images: [{ url: "/assets/foto.jpg", width: 400, height: 400, alt: "Foto de Alexis Artaza" }],
+    images: [{ url: "/assets/og.jpg", width: 1200, height: 630, alt: "Solo Coding" }],
   },
   twitter: { card: "summary_large_image" },
 };
