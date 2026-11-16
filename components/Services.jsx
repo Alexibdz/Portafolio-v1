@@ -9,7 +9,7 @@ const services = [
   {
     icon: "grid-1x2",
     title: "Sistemas de gestión a medida",
-    text: "Stock, ventas, caja, pedidos o turnos en un solo lugar, adaptado a cómo funciona tu negocio. Como Newcell.",
+    text: "Stock, ventas, caja, pedidos o turnos en un solo lugar, adaptado a cómo funciona tu negocio. Como iManagement.",
   },
   {
     icon: "bag-check",

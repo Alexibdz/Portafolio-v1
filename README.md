@@ -17,8 +17,8 @@ portafolio/
 │   ├── Header.jsx           ← menú, tema claro/oscuro, menú móvil, sección activa
 │   ├── Hero.jsx             ← inicio (con ProfilePhoto.jsx)
 │   ├── Services.jsx         ← 01 · Servicios
-│   ├── Project.jsx          ← 02 · Proyecto destacado (Newcell)
-│   ├── NewcellShowcase.jsx  ← carrusel de capturas (compu + celular sincronizados)
+│   ├── Project.jsx          ← 02 · Proyecto destacado (iManagement)
+│   ├── ImanagementShowcase.jsx ← carrusel de capturas (compu + celular sincronizados)
 │   ├── Lightbox.jsx         ← modal para ver las capturas en grande
 │   ├── About.jsx            ← 03 · Sobre mí
 │   ├── Contact.jsx          ← 04 · Contacto (con CopyEmail.jsx)
@@ -28,12 +28,12 @@ portafolio/
 │   └── …                    ← piezas chicas: Icon, Card, Logo, Socials, WhatsAppLink, CurrentYear
 ├── data/
 │   ├── site.js              ← WhatsApp, email, GitHub y LinkedIn
-│   └── newcell.js           ← títulos, textos e imágenes del carrusel
+│   └── imanagement.js       ← títulos, textos e imágenes del carrusel
 ├── public/assets/
 │   ├── favicon.svg
 │   ├── foto.jpg             ← tu foto 1:1
-│   └── newcell/             ← capturas de Newcell en la compu (WebP, 1920 y 1200 px)
-│       └── movil/           ← las mismas pantallas en el celular (WebP, 390 × 844)
+│   └── imanagement/         ← capturas de iManagement en la compu (WebP, 1920 y 1200 px)
+│       └── movil/           ← las mismas pantallas en el celular (WebP, 780 × 1688)
 ├── next.config.mjs          ← encabezados de seguridad
 └── vercel.json              ← le indica a Vercel que es un proyecto Next.js
 ```
@@ -46,21 +46,21 @@ Guardá tu foto cuadrada (1:1, 800 × 800 px o más) como **`public/assets/foto.
 El marco la recorta solo. Si no es cuadrada, podés elegir qué parte se ve cambiando `object-position: center 25%;` en `.photo-frame__img` (`app/globals.css`).
 Next.js la optimiza sola (la convierte a un formato más liviano y del tamaño justo para cada pantalla).
 
-## Carrusel de Newcell
+## Carrusel de iManagement
 
-Las pantallas están en **`data/newcell.js`**: cada una tiene su título, su texto, la captura de computadora y su par en el celular.
+Las pantallas están en **`data/imanagement.js`**: cada una tiene su título, su texto, la captura de computadora y su par en el celular.
 El carrusel tiene dos pistas que se mueven juntas: la de la computadora (dentro de `.browser`) y la del celular (dentro de `.phone`).
 
 Para agregar una pantalla, sumá un objeto a la lista y guardá las imágenes con el mismo nombre:
 
-- `public/assets/newcell/NOMBRE.webp` (1920 px) y `public/assets/newcell/NOMBRE-1200.webp` (1200 px)
-- `public/assets/newcell/movil/NOMBRE.webp` (390 × 844)
+- `public/assets/imanagement/NOMBRE.webp` (1920 × 948) y `public/assets/imanagement/NOMBRE-1200.webp` (1200 px)
+- `public/assets/imanagement/movil/NOMBRE.webp` (780 × 1688: una captura de 390 × 844 al doble de resolución)
 
 Los puntos, los textos, los `aria-label` ("N de 7") y el modal se arman solos.
 Al tocar una captura (o el botón ⤢) se abre en grande en un modal.
 
-Las capturas publicadas tienen datos censurados (descripciones de movimientos y datos del cliente).
-**No subas las capturas originales a la carpeta `public/`**: todo lo que está ahí se publica.
+Las capturas son de un local de ejemplo con datos inventados, nunca de un cliente real.
+**No subas capturas con datos reales a la carpeta `public/`**: todo lo que está ahí se publica.
 
 ## Íconos
 

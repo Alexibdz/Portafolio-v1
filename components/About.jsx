@@ -1,6 +1,6 @@
 import Icon from "./Icon";
 
-const technologies = ["HTML", "CSS", "JavaScript", "React", "Next.js", "Turso", "Git", "GitHub", "Vercel"];
+const technologies = ["HTML", "CSS", "JavaScript", "React", "Next.js", "PostgreSQL", "Supabase", "Git", "GitHub", "Vercel"];
 
 const perks = [
   { icon: "chat-dots", title: "Trato directo", text: "Hablás directamente con quien programa tu proyecto, sin intermediarios." },

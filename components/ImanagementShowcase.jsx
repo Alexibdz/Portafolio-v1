@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { newcellSlides as slides } from "@/data/newcell";
+import { imanagementSlides as slides } from "@/data/imanagement";
 import Icon from "./Icon";
 import Lightbox from "./Lightbox";
 
@@ -9,8 +9,8 @@ const count = slides.length;
 const desktopSizes = "(min-width: 1120px) 830px, (min-width: 900px) 75vw, 100vw";
 
 // Carrusel de capturas con dos pistas (computadora y celular) que se mueven juntas.
-// Cada captura de computadora tiene su par en el celular, en el mismo orden (data/newcell.js).
-export default function NewcellShowcase() {
+// Cada captura de computadora tiene su par en el celular, en el mismo orden (data/imanagement.js).
+export default function ImanagementShowcase() {
   const desktopTrack = useRef(null);
   const mobileTrack = useRef(null);
   const [current, setCurrent] = useState(0);
@@ -127,7 +127,7 @@ export default function NewcellShowcase() {
             <i />
             <i />
           </span>
-          <span className="browser__url">newcellrosario.vercel.app</span>
+          <span className="browser__url">imanagement.app</span>
         </div>
         <div
           className="carousel__track"
@@ -135,7 +135,7 @@ export default function NewcellShowcase() {
           tabIndex={0}
           role="region"
           aria-roledescription="carrusel"
-          aria-label="Capturas de Newcell en la computadora"
+          aria-label="Capturas de iManagement en la computadora"
         >
           {slides.map(({ title, desktop }, i) => (
             <div
@@ -170,7 +170,7 @@ export default function NewcellShowcase() {
             tabIndex={0}
             role="region"
             aria-roledescription="carrusel"
-            aria-label="Capturas de Newcell en el celular"
+            aria-label="Capturas de iManagement en el celular"
           >
             {slides.map(({ title, mobile }, i) => (
               <div
@@ -180,7 +180,7 @@ export default function NewcellShowcase() {
                 aria-roledescription="captura"
                 aria-label={`${i + 1} de ${count}: ${title}`}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element -- capturas ya optimizadas en WebP (390 × 844) */}
+                {/* eslint-disable-next-line @next/next/no-img-element -- capturas ya optimizadas en WebP (780 × 1688, se muestran a 390 × 844) */}
                 <img
                   src={mobile.src}
                   alt={mobile.alt}
