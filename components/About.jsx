@@ -1,17 +1,4 @@
-import Icon from "./Icon";
-
 const technologies = ["HTML", "CSS", "JavaScript", "React", "Next.js", "PostgreSQL", "Supabase", "Git", "GitHub", "Vercel"];
-
-const perks = [
-  { icon: "chat-dots", title: "Trato directo", text: "Hablás directamente con quien programa tu proyecto, sin intermediarios." },
-  { icon: "sliders", title: "A medida de tu negocio", text: "Nada de plantillas genéricas: se adapta a cómo trabajás vos." },
-  { icon: "phone", title: "Pensado para el celular", text: "Se ve y se usa cómodo desde el teléfono, que es donde están tus clientes." },
-  {
-    icon: "life-preserver",
-    title: "Soporte después de entregar",
-    text: "Te acompaño con ajustes y mejoras una vez que está funcionando.",
-  },
-];
 
 export default function About() {
   return (
@@ -48,22 +35,6 @@ export default function About() {
           </div>
         </div>
 
-        <div className="reveal">
-          <h3 className="subhead">Por qué trabajar conmigo</h3>
-          <ul className="perks">
-            {perks.map(({ icon, title, text }) => (
-              <li key={title}>
-                <span className="card__icon" aria-hidden="true">
-                  <Icon name={icon} />
-                </span>
-                <div>
-                  <h4>{title}</h4>
-                  <p>{text}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   );

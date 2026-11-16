@@ -19,7 +19,7 @@ export default function Hero() {
 
           <p className="hero__lead">
             Me enfoco en el frontend: webs y sistemas claros, rápidos y cómodos de usar desde el celular. Hago páginas
-            web, tiendas online y sistemas de gestión a medida para negocios.
+            web y sistemas de gestión a medida, y paso a la web y al celular lo que hoy llevás en Excel.
           </p>
 
           <p className="hero__location">

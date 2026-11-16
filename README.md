@@ -16,7 +16,7 @@ portafolio/
 ├── components/
 │   ├── Header.jsx           ← menú, tema claro/oscuro, menú móvil, sección activa
 │   ├── Hero.jsx             ← inicio (con ProfilePhoto.jsx)
-│   ├── Services.jsx         ← 01 · Servicios
+│   ├── Services.jsx         ← 01 · Servicios y por qué trabajar conmigo
 │   ├── Project.jsx          ← 02 · Proyecto destacado (iManagement)
 │   ├── ImanagementShowcase.jsx ← carrusel de capturas (compu + celular sincronizados)
 │   ├── Lightbox.jsx         ← modal para ver las capturas en grande
@@ -56,7 +56,7 @@ Para agregar una pantalla, sumá un objeto a la lista y guardá las imágenes co
 - `public/assets/imanagement/NOMBRE.webp` (1920 × 948) y `public/assets/imanagement/NOMBRE-1200.webp` (1200 px)
 - `public/assets/imanagement/movil/NOMBRE.webp` (780 × 1688: una captura de 390 × 844 al doble de resolución)
 
-Los puntos, los textos, los `aria-label` ("N de 7") y el modal se arman solos.
+Los puntos, los textos, los `aria-label` ("N de 8") y el modal se arman solos.
 Al tocar una captura (o el botón ⤢) se abre en grande en un modal.
 
 Las capturas son de un local de ejemplo con datos inventados, nunca de un cliente real.

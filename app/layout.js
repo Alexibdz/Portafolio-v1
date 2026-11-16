@@ -9,7 +9,7 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jet
 export const metadata = {
   title: "Alexis Artaza — Desarrollador Web | Solo Coding",
   description:
-    "Desarrollador web freelance en Victoria, Entre Ríos. Páginas web, tiendas online y sistemas de gestión a medida para negocios.",
+    "Desarrollador web freelance en Victoria, Entre Ríos. Páginas web, sistemas de gestión a medida y planillas de Excel convertidas en web y app para negocios.",
   authors: [{ name: "Alexis Artaza" }],
   icons: { icon: { url: "/assets/favicon.svg", type: "image/svg+xml" } },
 
@@ -21,7 +21,7 @@ export const metadata = {
     locale: "es_AR",
     siteName: "Solo Coding",
     title: "Alexis Artaza — Desarrollador Web",
-    description: "Páginas web, tiendas online y sistemas de gestión a medida para tu negocio.",
+    description: "Páginas web, sistemas de gestión a medida y planillas de Excel convertidas en web y app para tu negocio.",
     url: "/",
     images: [{ url: "/assets/og.jpg", width: 1200, height: 630, alt: "Solo Coding" }],
   },

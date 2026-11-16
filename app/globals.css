@@ -1227,17 +1227,8 @@ button {
 }
 
 /* ---------- Sobre mí ---------- */
-.about {
-  display: grid;
-  gap: 56px;
-}
-
-@media (min-width: 900px) {
-  .about {
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 80px;
-    align-items: start;
-  }
+.about > .reveal {
+  max-width: 760px;
 }
 
 .stack {
@@ -1263,10 +1254,15 @@ button {
   margin-top: 24px;
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 600px) {
   .perks {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* "Por qué trabajar conmigo", debajo de los servicios */
+.why {
+  margin-top: 64px;
 }
 
 .perks li {

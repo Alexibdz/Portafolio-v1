@@ -69,6 +69,15 @@ export const imanagementSlides = [
     },
     mobile: { alt: "Reparaciones del taller en el celular" },
   },
+  {
+    title: "Comprobante de venta",
+    text: "El recibo sale solo al vender: cliente, equipo con su IMEI, accesorios, forma de pago, garantía y verificación pre-entrega, listo para descargar en PDF.",
+    desktop: {
+      name: "08-comprobante",
+      alt: "Comprobante de venta de un iPhone 16 Pro con garantía de 90 días, forma de pago y verificación pre-entrega",
+    },
+    mobile: { alt: "Comprobante de venta en el celular" },
+  },
 ].map((slide) => ({
   ...slide,
   desktop: {
